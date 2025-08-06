@@ -340,6 +340,16 @@ body {
     color: #228B22;
 }
 
+.component-image img {
+    max-width: 100%;
+    height: 150px;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
 .component-card h3 {
     color: #1e4a1e;
     font-size: 1.3rem;
